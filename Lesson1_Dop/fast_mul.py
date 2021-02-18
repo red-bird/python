@@ -26,31 +26,8 @@ def fast_mul(x, y):
     return sum
 
 
-# print(fast_mul(10, 15))
-# print(fast_mul(15, 15))
-# print(fast_mul(5, 12))
-# print(fast_mul(-15, -15))
-# print(fast_mul(2, 3))
-
-def fast_pow(x, y):
-    sum = x
-    flag = False
-
-    if y < 0:
-        flag = True
-
-    y = abs(y)
-
-    if y == 0:
-        return 1
-    for _ in range(y - 1):
-        sum = fast_mul(sum, x)
-    if flag:
-        return 1 / sum
-    return sum
-
-
-print(fast_pow(2, 4))
-print(fast_pow(-2, 4))
-print(fast_pow(-2, 3))
-print(fast_pow(2, -4))
+print(fast_mul(10, 15))
+print(fast_mul(15, 15))
+print(fast_mul(5, 12))
+print(fast_mul(-15, -15))
+print(fast_mul(2, 3))
