@@ -1,0 +1,25 @@
+{
+  "date": "07.04.21",
+  "goods": [
+  {
+    "id": 0,
+    "good": "chair",
+    "material": "wood",
+    "shop": {
+      "name": "Hoff",
+      "phone": "+79999999999",
+      "address": "Moscow"
+    }
+  },
+  {
+    "id": 1,
+    "good": "table",
+    "material": "wood",
+    "shop": {
+      "name": "Hoff",
+      "phone": "+79999999999",
+      "address": "Moscow"
+    }
+  }
+]
+}
